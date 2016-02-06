@@ -9,7 +9,6 @@
   <project path="build" name="platform_build" remote="jakdillard" revision="mm-6.0-mr1" />
   <remove-project name="device/huawei/angler" />
   <project path="device/huawei/angler" name="platform_device_huawei_angler" remote="jakdillard" revision="mm-6.0-mr1" />
-  <project path="external/chromium-webviewgoogle" name="platform_external_chromium-webviewgoogle" remote="jakdillard" revision="mm-6.0-mr1" />
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="jakdillard" revision="mm-6.0-mr1" />
   <remove-project name="platform/packages/apps/Browser" />
