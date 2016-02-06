@@ -23,6 +23,5 @@
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_latinime" remote="jakdillard" revision="mm-6.0-mr1" />
   <project path="vendor/jakdillard" name="platform_vendor_jakdillard" remote="jakdillard" revision="mm-6.0-mr1" />
   <project path="vendor/huawei/angler" name="platform_vendor_huawei_angler" remote="jakdillard" revision="mm-6.0-mr1" />
-  <project path="vendor/google" name="platform_vendor_google" remote="jakdillard" revision="mm-6.0-mr1" />
 
 </manifest>
