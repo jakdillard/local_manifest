@@ -14,10 +14,9 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="jakdillard" revision="mm-6.0-mr1" />
   <remove-project name="platform/packages/apps/Browser" />
   <project path="packages/apps/Browser" name="platform_packages_apps_browser" remote="jakdillard" revision="mm-6.0-mr1" />
+  <project path="packages/apps/Eleven" name="platform_packages_apps_eleven" remote="jakdillard" revision="mm-6.0-mr1" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_gallery2" remote="jakdillard" revision="mm-6.0-mr1" />
-  <remove-project name="platform/packages/apps/Music" />
-  <project path="packages/apps/Music" name="platform_packages_apps_music" remote="jakdillard" revision="mm-6.0-mr1" />
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="jakdillard" revision="mm-6.0-mr1" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
