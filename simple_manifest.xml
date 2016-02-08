@@ -5,21 +5,13 @@
   <remote  name="jakdillard"
            fetch="git://github.com/jakdillard/" />
  
+  <!-- build -->
   <remove-project name="platform/build" />
   <project path="build" name="platform_build" remote="jakdillard" revision="mm-6.0-mr1" />
+  <!-- devices -->
   <remove-project name="device/huawei/angler" />
   <project path="device/huawei/angler" name="platform_device_huawei_angler" remote="jakdillard" revision="mm-6.0-mr1" />
-  <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="jakdillard" revision="mm-6.0-mr1" />
-  <remove-project name="platform/packages/apps/Browser" />
-  <project path="packages/apps/Browser" name="platform_packages_apps_browser" remote="jakdillard" revision="mm-6.0-mr1" />
-  <project path="packages/apps/Eleven" name="platform_packages_apps_eleven" remote="jakdillard" revision="mm-6.0-mr1" />
-  <remove-project name="platform/packages/apps/Gallery2" />
-  <project path="packages/apps/Gallery2" name="platform_packages_apps_gallery2" remote="jakdillard" revision="mm-6.0-mr1" />
-  <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="jakdillard" revision="mm-6.0-mr1" />
-  <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_latinime" remote="jakdillard" revision="mm-6.0-mr1" />
+  <!-- vendor -->
   <project path="vendor/jakdillard" name="platform_vendor_jakdillard" remote="jakdillard" revision="mm-6.0-mr1" />
   <project path="vendor/huawei/angler" name="platform_vendor_huawei_angler" remote="jakdillard" revision="mm-6.0-mr1" />
 
