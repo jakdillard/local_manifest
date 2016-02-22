@@ -15,7 +15,7 @@
   <project path="device/huawei/angler" name="platform_device_huawei_angler" remote="jakdillard" revision="clean-6" />
   <!-- external -->
   <!-- sepolicy -->
-  <remove-project name="external/sepolicy" />
+  <remove-project name="platform/external/sepolicy" />
   <project path="external/sepolicy" name="platform_external_sepolicy" remote="jakdillard" revision="clean-6" />
   <!-- frameworks -->
   <!-- base -->
